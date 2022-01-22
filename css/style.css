@@ -24,11 +24,11 @@ a {
 
 }
 h2 {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 /* Колонки */
@@ -51,6 +51,12 @@ h3 {
 /* Потом селекторы по классам */
 
 .text-input {
+    width: 300px;
+    border: solid 1px silver;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 1em;
 
 }
 
