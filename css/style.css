@@ -7,6 +7,7 @@
 /* Потом селекторы по тегам */
 
 html {
+    font-family: Arial;
 
 }
 
@@ -16,19 +17,33 @@ main {
 }
 
 p {
-
+    line-height: 150%;
 }
 
 a {
 
 }
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
 
 /* Колонки */
 
 .row {
+    display: flex;
+    margin-bottom: 14px;
+
+
+
 
 }
 .col {
+    flex: auto;
+
 
 }
 
@@ -40,6 +55,14 @@ a {
 }
 
 .button {
+    border: none;
+    background-color: #554AF0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    color: white;
+    width: 35%;
 
 }
 
@@ -48,7 +71,12 @@ a {
 /* Login*/
 
 .input-login {
-
+    width: 300px;
+    border: solid 3px #EBDCF9;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 1em;
 
 }
 
@@ -78,7 +106,7 @@ a {
 /* Страничка популярного */
 
 .cover {
-
+    width: 85%;
 }
 
 /* Страничка подписки  */
@@ -96,5 +124,15 @@ a {
 }
 
 .button-link {
+    border: none;
+    background-color: #554AF0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
 
 }
