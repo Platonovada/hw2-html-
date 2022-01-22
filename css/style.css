@@ -163,14 +163,23 @@ h3 {
 /* Страничка подписки  */
 
 .box-green {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    background-color:#E1F5EA;
+    padding: 15px;
 
 }
 
 .box-purple {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    background-color:#EBDCF9;
+    padding: 15px;
 
 }
 
 .text-large {
+    font-size: 28px;
 
 }
 
